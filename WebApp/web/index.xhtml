@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+   <f:view>
+      <h:outputLabel value="UserBean"/><br/>
+      <h:outputLabel value="Name: "/><h:outputText value="${userBean.name}"/><br/>
+      <h:outputLabel value="Last Name: "/><h:outputText value="${userBean.lastName}"/><br/>
+      <h:outputLabel value="email: "/><h:outputText value="${userBean.email}"/><br/>
+
+      <h:outputLabel value="EJB Same package"/><br/>
+      <h:outputLabel value="localQuestion: "/><h:outputText value="${userBean.localQuestion}"/><br/>
+
+
+      <h:outputLabel value="EJB Core package"/><br/>
+      <h:outputLabel value="localEJB Question: "/><h:outputText value="${userBean.localEJBQuestion}"/><br/>
+   </f:view>
+</html>

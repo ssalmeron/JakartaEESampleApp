@@ -1,0 +1,4 @@
+# Project exclude paths
+/EARContainer/target/
+/EJBCore/target/
+/WebApp/target/
